@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Al products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+       
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="60">
+            </div>
+            <nav>
+                <ul class="MenItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png"  class="menu-icon" onclock="mentoggle()">
+        </div>
+     
+      
+     
+   
+   
+     <div class="categories">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select >
+                <option>Default Shorting</option>
+                <option>Short by price</option>
+                <option>short by popularity</option>
+                <option>Short by rating</option>
+                <option>short by sale</option>
+            </select>
+        </div>
+         <div class="row">
+            <div class="col-4">
+                <img src="images/KIDCO501.jpg" width="180">
+                <h2>Kid conjonto</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 5£</p>
+            </div> 
+             <div class="col-4">
+                  <img src="images/KIDRO201.jpg" width="180">
+                <h2>Kid vistido</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 6£</p>
+             </div>
+              <div class="col-4">
+                   <img src="images/KIDTOP601-C.jpg" width="180">
+                <h2>Kid Top</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 4£</p>
+              </div>
+               <div class="col-4">
+                    <img src="images/KIDVE401.jpg" width="180">
+                <h2>Kid jackta</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 10£</p>
+               </div>
+                      
+             </div>
+             <div class="row">
+            <div class="col-4">
+                <img src="images/KIDCO501.jpg" width="180">
+                <h2>Kid conjonto</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 5£</p>
+            </div> 
+             <div class="col-4">
+                  <img src="images/KIDRO201.jpg" width="180">
+                <h2>Kid vistido</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 6£</p>
+             </div>
+              <div class="col-4">
+                   <img src="images/KIDTOP601-C.jpg" width="180">
+                <h2>Kid Top</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 4£</p>
+              </div>
+               <div class="col-4">
+                    <img src="images/KIDVE401.jpg" width="180">
+                <h2>Kid jackta</h2>
+                 <h5> Del codon </h5>
+                  <p>pricio 10£</p>
+               </div>
+                      
+             </div>
+             <div class="page-btn">
+                 <span>1</span>
+                 <span>2</span>
+                 <span>3</span>
+                 <span>4<span>
+                 <span>&#8594;</span>
+                 
+             </div>
+      </div>
+     
+    
+    
+     
+
+     <!--- footer--->
+     <footer class="footer"> 
+        <div class="row">
+            <div class="footer-col-1">
+               <h3> Download Our App</h3>
+               <p>Download for Android  and ios mobile</p>
+               <div class="app-logo">
+                   <img src="images/app-store.png" >
+                   <img src="images/app-store.png" >
+               </div>
+           </div>
+            <div class="footer-col-2">
+               <img src="images/LogoNibalquerter.png" >
+               <p>Our purpose is to sstainably make  </p> 
+            </div>
+             <div class="footer-col-3">
+              
+               <h3> UsefulLink</h3>
+                 <ul>
+                     <li>Coupns</li>
+                     <li>Blog Post</li>
+                    <li>Return Policy</li>
+                     <li>Join Affiliate</li>
+                 </ul>
+               <p>Download for Android  and ios mobile</p>
+           </div>
+           <div class="footer-col-4">
+               <h3> Follow Us</h3>
+                 <ul>
+                     <li>Facebook</li>
+                     <li>Twitter</li>
+                    <li>Instagram</li>
+                     <li>JYotbe</li>
+                 </ul>
+               <p>Download for Android  and ios mobile</p>
+           </div>
+            <hr>
+            <p class="Copyright"> CopyrightSam Mhsen 2019</p>
+        </div>
+     </footer>
+     <!---js--->
+     var  MenItems = document.getElementByTd("MenItems");
+     MenItems.style.maxHeight = "0px";
+     
+     function mentoggle(){
+        if(MenItems.style.maxHeight == "0px")
+        {
+           MenItems.style.maxHeight = "200px"
+        }
+        else{  
+              MenItems.style.maxHeight = "0px"
+            }
+     }
+</body>
+</html>
